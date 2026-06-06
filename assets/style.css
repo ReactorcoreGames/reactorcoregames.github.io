@@ -33,19 +33,19 @@
   --btn-green:       #1a3d22;
   --btn-green-hi:    #2d6038;
   --btn-green-lo:    #0d2012;
-  --btn-green-text:  #7dffaa;
+  --btn-green-text:  #ceff6c;
 
   /* on green → blue buttons */
   --btn-blue:        #162040;
   --btn-blue-hi:     #243468;
   --btn-blue-lo:     #0a1228;
-  --btn-blue-text:   #7ab8ff;
+  --btn-blue-text:   #56fcff;
 
   /* on blue  → red buttons */
   --btn-red:         #4a1a1a;
   --btn-red-hi:      #6e2a2a;
   --btn-red-lo:      #2e0e0e;
-  --btn-red-text:    #ff8888;
+  --btn-red-text:    #ffff4e;
 
   /* === Neon accent — orange only for pulse + hover === */
   --neon:            #ff6a00;
@@ -55,8 +55,8 @@
 
   /* === Text === */
   --text:            #ffffff;
-  --text-dim:        rgba(255, 255, 255, 0.65);
-  --text-muted:      rgba(255, 255, 255, 0.38);
+  --text-dim:        rgba(255, 255, 255, 0.85);
+  --text-muted:      rgba(255, 255, 255, 0.65);
 
   /* === Layout === */
   --island-gap:      5px;
