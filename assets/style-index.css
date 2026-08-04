@@ -53,6 +53,52 @@
 /* Row footer */
 .row-footer { width: 100%; }
 
+/* Featured-on badge strip */
+.row-badges {
+  display: flex;
+  justify-content: center;
+  padding: 0.25rem 0;
+}
+
+.badge-submitator {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.badge-submitator-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #0a0a0a;
+  color: #ffffff;
+  border: 2px solid #ccff00;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0 #ccff00;
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+.badge-submitator-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  gap: 3px;
+}
+
+.badge-submitator-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ccff00;
+}
+
+.badge-submitator-name {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+
 /* About island internals */
 .about-name {
   font-size: 1.5rem;
