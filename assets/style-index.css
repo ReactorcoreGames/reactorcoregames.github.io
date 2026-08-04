@@ -56,8 +56,40 @@
 /* Featured-on badge strip */
 .row-badges {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  padding: 0.25rem 0;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.badge-img-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.badge-img-link img {
+  display: block;
+  height: 60px;
+  width: auto;
+  max-width: 100%;
+}
+
+.badge-submitator-inner {
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.badge-placeholder {
+  height: 60px;
+  box-sizing: border-box;
+  padding: 0 0.9rem;
+  border: 1px dashed var(--text-dim);
+  border-radius: 4px;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 .badge-submitator {
